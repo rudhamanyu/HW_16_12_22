@@ -5,9 +5,9 @@
 
 num = int(input('Введите число: '))
 my_list = []
-sum = 0
+my_sum = 0
 for i in range(num):
     my_list.append(round((1 + (1 / (i + 1))) ** (i + 1), 2))
-    sum += my_list[i]
+    my_sum += my_list[i]
 print(f'n = {num} -> {my_list}')
-print(f'Сумма = {sum}')
+print(f'Сумма = {my_sum}')
